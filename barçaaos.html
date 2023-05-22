@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>FC Barcelona - Web amb Animació AOS</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+  <style>
+    /* Estils per als elements animats amb AOS */
+    .animated-element {
+      opacity: 0;
+      transition: opacity 1s ease-in-out;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 data-aos="fade-right" class="animated-element">Benvingut a la pagina web del Barça amb aos!</h1>
+    <p data-aos="fade-left" class="animated-element">El Fútbol Club Barcelona (en catalán: Fútbol Club Barcelona), conegut popularment como Barça.Es una entitat polideportiva amb sede en Barcelona, ​​Catalunya, España. Va ser fundat com club de fútbol el 29 de novembre de 1899 y registrat oficialment el 5 de gener de 1903.7 8 9
+        Tant el club com els seus "hinchas" recibeixen el apelatiu de culés, y també, en referencia als seus colors, blaugranes o azulgranas.</p>
+  </header>
+  <section>
+    <div class="container">
+      <h2 data-aos="fade-up" class="animated-element">Història del FC Barcelona</h2>
+      <p data-aos="fade-up" data-aos-delay="200" class="animated-element">El Futbol Club Barcelona, conegut com a Barça, és un club de futbol amb seu a Barcelona, Catalunya. Fundat l'any 1899, és un dels clubs de futbol més antics d'Espanya i del món. Conta amb 5 Champions League, 26 Lligues, 31 Copes del Rey, 3 Mundial de clubs, 5 Supercopes de Europa, 4 Recopes, 14 Supercopes de España, 3 Copa De Feria, 2 Copas Latinas, 3 copes Eva Duarte i finamente 2 copes de la lliga</p>
+      <img data-aos="zoom-in" data-aos-delay="400" src="https://a1.espncdn.com/combiner/i?img=%2Fphoto%2F2021%2F1219%2Fr953121_1296x729_16%2D9.jpg&w=570&format=jpg" alt="Imatge del Camp Nou" class="animated-element">
+    </div>
+  </section>
+  <section>
+    <div class="container">
+      <h2 data-aos="fade-up" class="animated-element">Jugadors Emblemàtics</h2>
+      <ul data-aos="fade-up" data-aos-delay="200" class="animated-element">
+        <li>Lionel Messi</li>
+        <li>Xavi Hernández</li>
+        <li>Andrés Iniesta</li>
+        <li>Carles Puyol</li>
+        <li>Marc Andres Ter-Stegen</li>
+        <li>Ronaldinho</li>
+        <li>Neymar</li>
+        <li>Romario</li>
+      </ul>
+    </div>
+  </section>
+  <footer>
+    <p data-aos="fade-up" class="animated-element"> FC Barcelona, El Segon Millor Equip Del Mon</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
